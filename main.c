@@ -12,7 +12,6 @@
 int main() {
   assert(COLS > ROWS * 2.1f);
 
-
   // Clear screen and hide cursor
   printf("\x1b[2J\x1b[?25l");
 
@@ -80,7 +79,6 @@ int main() {
           vx/= d;
           vy/= d;
           vz/= d;
-
 
           // Get cos angle between normal vector and light vector
           float a = vx * nx + vy * ny + vz * nz;

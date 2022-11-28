@@ -15,7 +15,7 @@ def convert(file):
     for y in range(1, h - 1):
         line = ''
         for x in range(1, w - 1):
-            i = x + y * h
+            i = x + y * w
             if not data[i]:
                 line+= ' '
                 continue
